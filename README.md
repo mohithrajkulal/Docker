@@ -44,6 +44,14 @@ to change the port:-
 `docker run -p 3001:3000 my-app`
 
 ## Did you know?
+You can also test the express app using the cmd:
+
+Post: `curl -X POST http://localhost:3000/greet \
+  -H "Content-Type: application/json" \
+  -d '{"message": "Hello from terminal"}'`
+
+Get: `curl http://localhost:3000`
+  
 You can create a file call app.js and direct write using echo, syntax as mentioned below
 
 `echo "YOUR_CONTENT" > app.js`
