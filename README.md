@@ -50,6 +50,11 @@ Post: `curl -X POST http://localhost:3000/greet \
   -H "Content-Type: application/json" \
   -d '{"message": "Hello from terminal"}'`
 
+  Using Auth: `curl -X POST http://localhost:3000/greet \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_TOKEN_HERE" \
+  -d '{"message": "Hello from terminal"}'`
+
 Get: `curl http://localhost:3000`
   
 You can create a file call app.js and direct write using echo, syntax as mentioned below
