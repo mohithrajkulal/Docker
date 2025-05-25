@@ -35,4 +35,4 @@ https://hub.docker.com/repository/docker/your-dockerhub-username/my-app
 
 ## Did you know?
 You can create a file call app.js and direct write using echo, syntax as mentioned below
-echo "YOUR_CONTENT" > app.js
+`echo "YOUR_CONTENT" > app.js`
