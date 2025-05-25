@@ -33,6 +33,13 @@ Docker Hub is a cloud-based registry where you can store and share container ima
 Your pushed image will be accessible at:
 https://hub.docker.com/repository/docker/your-dockerhub-username/my-app
 
+## IMP Docker commands
+list active containers:-
+`docker ps`
+
+to stop the conatiner that is running:-
+`docker stop <container_id>`
+
 ## Did you know?
 You can create a file call app.js and direct write using echo, syntax as mentioned below
 
