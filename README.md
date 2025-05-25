@@ -37,3 +37,17 @@ https://hub.docker.com/repository/docker/your-dockerhub-username/my-app
 You can create a file call app.js and direct write using echo, syntax as mentioned below
 
 `echo "YOUR_CONTENT" > app.js`
+
+Ex: 
+```echo "const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+app.listen(port, () => {
+  console.log(\`Server listening on port \${port}\`);
+});
+" > app.js
