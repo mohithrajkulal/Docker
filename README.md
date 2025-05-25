@@ -40,6 +40,9 @@ list active containers:-
 to stop the conatiner that is running:-
 `docker stop <container_id>`
 
+to change the port:-
+`docker run -p 3001:3000 my-app`
+
 ## Did you know?
 You can create a file call app.js and direct write using echo, syntax as mentioned below
 
